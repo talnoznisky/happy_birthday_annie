@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100vh;
+    width: 100vw;
+}
+
+#text {
+    margin: 3px;
+}
+
+.container {
+    margin: 1vh auto 0 auto;    
+    width: 800px;
+    max-width: 90%;
+    background-color:lemonchiffon;
+    padding: 10px;
+    border-radius: 1px;
+    font-size: large;
+}
+
+.btn {
+    background-color: hsl(182, 88%, 61%);
+    border: 6px hsla(180, 78%, 43%, 0.884);
+    padding: 5px;
+    margin: 3px;
+    font-size: large;
+}

@@ -229,7 +229,7 @@ const textNodes = [
         options: [
             {
                 text: 'pre-columbian exchange still lifes',
-                nextTest: 'still_lifes'
+                nextText: 'still_lifes'
             },
             {
                 text: 'landscape painting scrolls with lots of mist',
@@ -242,8 +242,8 @@ const textNodes = [
         text: 'i guess i still prefer the post-columbian tableau, but idk\nwhat should we do for dinner?',
         options: [
             {
-                text: 'didn\'t you say you had a plan?',
-                nextTest: 'tals_plan'
+                text: "didnt you say you had a plan?",
+                nextText: 'tals_plan'
             },
             {
                 text: 'peruvian chicken poutine',
@@ -256,8 +256,8 @@ const textNodes = [
         text: 'oh wow that was gorgeous.\nwe should totally go to a japanese forest soon.\nwhat should we do for dinner?',
         options: [
             {
-                text: 'didn\'t you say you had a plan?',
-                nextTest: 'tals_plan'
+                text: "didnt you say you had a plan?",
+                nextText: 'tals_plan'
             },
             {
                 text: 'peruvian chicken poutine',
@@ -294,8 +294,8 @@ const textNodes = [
         text: 'damn that was some good reading. i\'m gonna take a post-read shower.\nthink about what you want for dinner?',
         options: [
             {
-                text: 'didn\'t you say you had a plan?',
-                nextTest: 'tals_plan'
+                text: "didnt you say you had a plan?",
+                nextText: 'tals_plan'
             },
             {
                 text: 'peruvian chicken poutine',
@@ -308,8 +308,8 @@ const textNodes = [
         text: 'lol alright - you do you.\n this is nice... throwing rocks at the evening water.\nwhat should we do for dinner?',
         options: [
             {
-                text: 'didn\'t you say you had a plan?',
-                nextTest: 'tals_plan'
+                text: "didnt you say you had a plan?",
+                nextText: 'tals_plan'
             },
             {
                 text: 'peruvian chicken poutine',
@@ -337,8 +337,8 @@ const textNodes = [
         text: 'wow yeah, glad we stuck it out around here. the sunset was beautiful.\ngood call - but what should we do for dinner?',
         options: [
             {
-                text: 'didn\'t you say you had a plan?',
-                nextTest: 'tals_plan'
+                text: "didnt you say you had a plan?",
+                nextText: 'tals_plan'
             },
             {
                 text: 'peruvian chicken poutine',
@@ -405,5 +405,4 @@ const textNodes = [
         ]
     }            
 ]
-
 startGame()

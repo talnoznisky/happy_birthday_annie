@@ -1,5 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 body {
@@ -32,4 +33,28 @@ body {
     padding: 5px;
     margin: 3px;
     font-size: large;
+}
+
+img {
+    object-fit: contain;
+    height: 95%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.balloons {
+    position: fixed;
+    display: block;
+    margin: auto;
+    height: 60%;
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+    justify-content: center;
+}
+.switchmode {
+    margin: auto;
+    width: 100%;
+    text-align: center;
 }
